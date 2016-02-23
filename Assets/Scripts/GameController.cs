@@ -58,7 +58,6 @@ public  class GameController : MonoBehaviour
     {
         PlayerPrefs.SetFloat("Score", score);
         PlayerPrefs.Save();
-        Debug.LogError(score);
    //     StreamWriter sw = new StreamWriter(path);
    //     sw.Write(score);
    //     sw.Close();
